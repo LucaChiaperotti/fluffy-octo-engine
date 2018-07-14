@@ -1,12 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Dimensions } from 'react-native';
 import HTML from 'react-native-render-html';
 import html from './html.js';
 
 
 export default class Game extends React.Component {
   constructor(){
-    console.log(html.htmlContent, html.styles);
     super();
     this.state = {
       players: [],
@@ -17,7 +16,6 @@ export default class Game extends React.Component {
   render() {
     return (
       <View>
-        <Text>This is our game</Text>
         <Wheel></Wheel>
       </View>
     );
@@ -26,11 +24,11 @@ export default class Game extends React.Component {
 
 class Wheel extends React.Component {
   render() {
+
     return (
-      <View>
-        <Text>This is our wheel</Text>
-        <HTML html={html.htmlContent} classesStyles={html.styles} />
-      </View>
+    <HTML html={html.htmlContent} imagesMaxWidth={Dimensions.get('window').width}
+      classesStyles={html.classesStyles}
+    tagsStyles={html.tagsStyles}/>
     );
   }
 }
