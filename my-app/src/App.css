@@ -1,32 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 *{	margin:0;	padding:0; }
 
 body{
@@ -40,9 +11,6 @@ a{
 	color:#34495e;
 }
 
-
-
-
 /*WRAPPER*/
 #wrapper{
 	margin: 40px auto 0;
@@ -53,7 +21,6 @@ a{
 #txt{
 	color:#eaeaea;
 }
-
 
 /*WHEEL*/
 #wheel{
@@ -150,7 +117,6 @@ a{
 	border-color: #c0392b transparent;
 }
 
-
 #wheel div.sec .fa{
 	margin-top: -100px;
 	color: rgba(0,0,0,0.2);
@@ -160,12 +126,7 @@ a{
 	text-align: center;
 	font-size:36px;
 	margin-left:-15px;
-
-	text-shadow: rgba(255, 255, 255, 0.1) 0px -1px 0px, rgba(0, 0, 0, 0.2) 0px 1px 0px;
 }
-
-
-
 
 #spin{
 	width:68px;
@@ -180,7 +141,6 @@ a{
 	background:#fff;
 	cursor:pointer;
 	font-family: 'Exo 2', sans-serif;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -194,7 +154,6 @@ a{
 	text-align:center;
 	line-height:68px;
 	color:#CCC;
-	text-shadow: 0 2px 0 #fff, 0 -2px 0 rgba(0,0,0,0.3) ;
 	position: relative;
 	z-index: 100000;
 	width:68px;
@@ -225,7 +184,6 @@ a{
 	background:red;
 	z-index:999;
 	box-shadow:rgba(255,255,255,1) 0px -2px 0px inset, rgba(255,255,255,1) 0px 2px 0px inset,  rgba(0,0,0,0.4) 0px 0px 5px ;
-
 	background: rgb(255,255,255); /* Old browsers */
 	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(234,234,234,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
@@ -244,8 +202,6 @@ a{
 	font-size:15px;
 }
 
-
-
 #shine{
 	width:250px;
 	height:250px;
@@ -259,13 +215,9 @@ background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rg
 background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.99) 1%,rgba(255,255,255,0.91) 9%,rgba(255,255,255,0) 100%); /* IE10+ */
 background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.99) 1%,rgba(255,255,255,0.91) 9%,rgba(255,255,255,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
 opacity:0.1;
 
 }
-
-
 
 /*ANIMATION*/
 @-webkit-keyframes hh {
