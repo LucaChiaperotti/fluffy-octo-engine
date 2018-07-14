@@ -21,12 +21,12 @@ class Wheel extends Component {
         <div id="wrapper">
           <div id="wheel">
             <div id="inner-wheel">
-              <div className="sec"></div>
-              <div className="sec"></div>
-              <div className="sec"></div>
-              <div className="sec"></div>
-              <div className="sec"></div>
-              <div className="sec"></div>
+              <div className="sec"><span className="fa">game1</span></div>
+              <div className="sec"><span className="fa">game2</span></div>
+              <div className="sec"><span className="fa">game3</span></div>
+              <div className="sec"><span className="fa">game4</span></div>
+              <div className="sec"><span className="fa">game5</span></div>
+              <div className="sec"><span className="fa">game6</span></div>
             </div>
             <div id="spin">
               <div id="inner-spin"></div>
